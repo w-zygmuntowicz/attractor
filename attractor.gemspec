@@ -65,5 +65,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sassc"
   spec.add_development_dependency "standard"
   spec.add_development_dependency "structured_changelog"
-  spec.add_development_dependency "irb"
 end
