@@ -65,9 +65,9 @@ module Attractor
       history = `git log --oneline -n #{limit} -- #{file_path}`
       history.split("\n")
         .map do |log_entry|
-        log_entry.partition(/\A(\S+)\s/)
-          .map(&:strip)
-          .reject(&:empty?)
+          log_entry.partition(/\A(\S+)\s/)
+            .map(&:strip)
+            .reject(&:empty?)
       end
     end
   end
