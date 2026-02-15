@@ -55,7 +55,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "attractor-ruby", "~> 0.3.0"
   spec.add_development_dependency "autoprefixer-rails"
   spec.add_development_dependency "bootstrap", "~> 5.0"
-  spec.add_development_dependency "bundler", "~> 3.0"
+  spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "cucumber"
   spec.add_development_dependency "guard"
   spec.add_development_dependency "guard-rake"
