@@ -40,12 +40,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "churn", ">= 1.0.4"
+  spec.add_dependency "csv"
   spec.add_dependency "descriptive_statistics"
   spec.add_dependency "flog", "~> 4.0"
   spec.add_dependency "launchy"
   spec.add_dependency "listen", "~> 3.0"
   spec.add_dependency "rack-livereload"
-  spec.add_dependency "sinatra"
+  spec.add_dependency "sinatra", "~> 4.0"
   spec.add_dependency "thor"
   spec.add_dependency "tilt"
 
@@ -53,15 +54,16 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "attractor-javascript", "~> 0.3.0"
   spec.add_development_dependency "attractor-ruby", "~> 0.3.0"
   spec.add_development_dependency "autoprefixer-rails"
-  spec.add_development_dependency "bootstrap", "~> 4.3.1"
+  spec.add_development_dependency "bootstrap", "~> 5.0"
   spec.add_development_dependency "bundler", "~> 4.0"
   spec.add_development_dependency "cucumber"
   spec.add_development_dependency "guard"
   spec.add_development_dependency "guard-rake"
   spec.add_development_dependency "pry"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "sassc"
   spec.add_development_dependency "standard"
   spec.add_development_dependency "structured_changelog"
+  spec.add_development_dependency "irb"
 end
